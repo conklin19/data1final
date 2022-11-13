@@ -8,8 +8,7 @@ import seaborn as sns
 import matplotlib as mp
 
 df = pd.read_csv('assets\KPdata.csv')
-df.head()
-print(df)
 
 data = df
-print(data)
+average = (data["KPvalue"].mean)
+print(average)
